@@ -1,0 +1,12 @@
+html {
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+hi > i {
+  font-style: italic;
+}
