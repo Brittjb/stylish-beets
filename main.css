@@ -1,5 +1,10 @@
 html {
+    box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 h1 {
