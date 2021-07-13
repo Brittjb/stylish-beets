@@ -1,0 +1,143 @@
+html {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  background-color: #c9b5ab;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f1622;
+  text-decoration: none;
+}
+
+h1 > i {
+  font-style: italic;
+}
+
+nav > li {
+  font-size: 1.125rem;
+  color: #8f2440;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: #3f1622;
+}
+
+a:hover {
+  text-decoration: line-through;
+  color: #2353f2;
+  border-color: inherit;
+}
+
+img {
+  background-color: #000;
+  width: 1.5em;
+}
+
+figure > figcaption {
+  font-size: 1.125rem;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  color: #222;
+}
+
+.germination {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #222;
+  font-family: "PT Serif", serif;
+}
+
+.cooking {
+  font-size: 1.125rem;
+  color: #222;
+  font-family: "PT Serif", serif;
+}
+
+.cooking > b {
+  font-weight: bold;
+  color: #222;
+  font-family: "PT Serif", serif;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  color: #222;
+  font-family: "PT Serif", serif;
+}
+
+blockquote > i {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  color: #222;
+}
+
+blockquote > p {
+  font-family: "PT Serif", serif;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+blockquote > cite {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #222;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3f1622;
+}
+
+h2 > li {
+  list-style-type: lower-alpha;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+h2 > p {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-style: italic;
+  color: #222;
+}
+
+dl {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #222;
+}
+
+dl > data {
+  font-size: 1.125rem;
+}
+
+aside > li {
+  list-style-type: circle;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+footer {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+footer > a {
+  color: #3f1622;
+}
