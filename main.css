@@ -1,6 +1,7 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'PT Sans', sans-serif;
+  background-color: #c9b5ab
 }
 
 *, *::before, *::after {
@@ -10,8 +11,102 @@ html {
 h1 {
   font-size: 1.5rem;
   font-weight: bold;
+  font-color: #3f1622;
 }
 
 hi > i {
   font-style: italic;
+}
+
+nav > li {
+  font-size: 1.125rem;
+  font-color: #8f2440;
+}
+
+figure > figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+  font-color: #222;
+}
+
+.germination {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-color: #222;
+}
+
+.cooking {
+  font-size: 1.125rem;
+  font-color: #222;
+}
+
+.cooking > b {
+  font-weight: bold;
+  font-color: #222;
+}
+
+blockquote {
+  font-size: 1.125rem;
+  font-color: #222;
+}
+
+blockquote > cite {
+  font-style: italic
+  font-color: #222
+}
+
+blockquote > i {
+  font-style: italic
+  font-color: #222
+}
+
+blockquote > p {
+  font-size: 1.5rem ;
+  font-style: italic
+}
+
+blockquote > cite {
+  font-size: 0.8rem;
+  font-style:italic;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-color: #3f1622
+}
+
+h2 > li {
+  font-size: 1.125rem;
+  font-color: #222;
+}
+
+h2 > p {
+  font-size: 1.125rem;
+  font-style: italic;
+  font-color: #222;
+}
+
+dl {
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-color: #222
+}
+
+dl > data {
+  font-weight: regular;
+}
+
+aside > li {
+  font-size: 0.8rem;
+  font-color: #222;
+}
+
+footer {
+  font-size: 0.8rem;
+  font-color: #222
+}
+
+footer > a {
+  font-color: #3f1622;
 }
